@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>用户登录……</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<META content=revealTrans(Transition=23,Duration=1.0) http-equiv=Page-Enter>
+<META content=revealTrans(Transition=23,Duration=1.0) http-equiv=Page-Exit>
+<link rel="stylesheet" href="/ToucsMonitor/ToucsMonitor/v5_css.css" type="text/css">
+<link rel="stylesheet" href="/v5_css.css" type="text/css">
+
+<script language="JavaScript">
+function check(){	
+	var pwd = document.getElementById("pwd");
+	var reg1 = /^[0-9a-zA-Z]*$/;
+	
+	//验证口令的组成
+	if (!reg1.test(pwd.value)){	
+		alert("口令只能由字母、数字组成！ ");
+		return false;
+	}
+	//验证口令的长度
+	if(pwd.value.length<8||pwd.value.length>16){
+		alert("口令的长度只能是8-16位!");
+		return false;
+	}
+	return true;
+}
+</script>
+</head>
+<body bgcolor="#FFFFFF" leftMargin=0  topMargin=0>
+	<table width="768" border="0" cellspacing="0" cellpadding="0" align="center">
+  		<tr>
+    		<td colspan="2">
+    			<img src="/ToucsMonitor/ToucsMonitor/images/longin_1.jpg" width="768" height="140">
+    		</td>
+  		</tr>
+  		<tr>
+    		<td width="412">
+      			<div align="center"></div>
+      			<div align="center"><img src="/ToucsMonitor/ToucsMonitor/images/longin_2.jpg" width="393" height="256"></div>
+    		</td>
+    		<td width="356">
+      			<table width="356" border="0" cellspacing="0" cellpadding="0" height="256">
+        			<tr>
+          				<td width="324">
+            				<form name="uinfo" method="post" action="/ToucsMonitor/login?reqCode=20001">
+              					<table width="79%" border="0" cellspacing="0" cellpadding="0" class="userinfo" height="174">
+                					<tr>
+                  						<td width="30%">用户名称：</td>
+                  						<td width="70%">
+                   	 						<input type="text" name="uid" style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #333333 1px solid; BORDER-LEFT: #333333 1px solid; BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; COLOR: #3333ff; FONT-SIZE: 9pt" size="15" >
+                  						</td>
+                  						<td rowspan="3">&nbsp;</td>
+                					</tr>
+                					<tr>
+                  						<td width="30%">用户密码：</td>
+                  						<td width="70%">
+                    						<input type="password" name="pwd" style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #333333 1px solid; BORDER-LEFT: #333333 1px solid; BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; COLOR: #3333ff; FONT-SIZE: 9pt" size="16" >
+                  						</td>
+                					</tr>
+                					<tr>
+                  						<td width="30%">&nbsp;</td>
+                  						<td width="70%">
+                    						<input type="submit" name="Submit" value="登录" style="cursor:hand;width:40;height:18;border:1 solid #9a9999; font-size:12px; background-color:#f8f8f8" onClick="return check()">&nbsp;&nbsp;&nbsp;
+                    						<input type="reset" name="reset" value="取消" style="cursor:hand;width:40;height:18;border:1 solid #9a9999; font-size:12px; background-color:#f8f8f8">
+                  						</td>
+                					</tr>
+              					</table>
+            				</form>
+          				</td>
+          				<td width="32" background="/ToucsMonitor/ToucsMonitor/images/longin_4.jpg">
+          					<img src="/ToucsMonitor/ToucsMonitor/images/longin_4.jpg" width="22" height="29">
+          				</td>
+        			</tr>
+      			</table>
+    		</td>
+  		</tr>
+  		<tr>
+    		<td colspan="2">
+      			<div align="center">
+      				<img src="/ToucsMonitor/ToucsMonitor/images/longin_3.jpg" height="23">
+      			</div>
+    		</td>
+  		</tr>
+	</table>
+</body>
+</html>

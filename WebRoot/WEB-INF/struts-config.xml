@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+
+  <!-- 用于配置数据库连接池 -->
+  	<data-sources />
+  	
+  <!-- 用于配置ActionForm Bean -->
+  	<form-beans>
+  		<form-bean name="posLcCardInfo" type="com.adtec.toucs.monitor.POSDeviceManage.POSLcCardForm"></form-bean>
+  		<form-bean name="posBCCardInfo" type="com.adtec.toucs.monitor.POSDeviceManage.POSBCCardForm"></form-bean>
+  	</form-beans>
+  	
+  <!-- 用于配置全局异常 -->
+  	<global-exceptions />
+  	
+  <!-- 用于配置全局转发 -->
+  	<global-forwards />
+  	
+  	
+  <!-- 用于配置Action 映射列表 -->
+  	<action-mappings>
+  		<action path="/posLcCard" name="posLcCardInfo" parameter="method" scope="request" 
+  			type="com.adtec.toucs.monitor.POSDeviceManage.POSLcCardAction" input ="/PosLcCardUpload.jsp">
+  			<forward name="success" path="/ToucsMonitor/Success.jsp"></forward>
+  			<forward name="failure" path="/ToucsMonitor/Success.jsp"></forward>
+  			</action>
+  			
+  			<action path="/posBCCard" name="posBCCardInfo" parameter="method" scope="request" 
+  			type="com.adtec.toucs.monitor.POSDeviceManage.POSBCCardAction" input ="/POSBCUpload.jsp">
+  			<forward name="success" path="/ToucsMonitor/Success.jsp"></forward>
+  			<forward name="failure" path="/ToucsMonitor/Success.jsp"></forward>
+  			</action>
+  	</action-mappings>
+  
+  <!-- 配置资源文件 -->
+  	<message-resources parameter="com.adtec.toucs.monitor.comm" />
+</struts-config>
+

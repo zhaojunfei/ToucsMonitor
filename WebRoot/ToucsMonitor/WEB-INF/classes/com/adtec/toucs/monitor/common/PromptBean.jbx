@@ -1,0 +1,11 @@
+[PropertyInfo]
+btnLabel,String[],false,false, , ,false,<default>
+btnSize,int,false,false, , ,true,<default>
+btnTarget,String[],false,false, , ,false,<default>
+prompt,String,false,false, , ,true,<default>
+title,String,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

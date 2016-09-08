@@ -1,0 +1,33 @@
+[PropertyInfo]
+branch_id,String,false,false, , ,false,<default>
+branchid,String,false,false, , ,true,<default>
+end_date,String,false,false, , ,false,<default>
+end_time,String,false,false, , ,false,<default>
+enddate,String,false,false, , ,true,<default>
+endtime,String,false,false, , ,true,<default>
+MAXLENGTH,int,false,false, , ,false,<default>
+mct_name,String,false,false, , ,true,<default>
+memo1,String,false,false, , ,true,<default>
+memo2,String,false,false, , ,true,<default>
+memo3,String,false,false, , ,true,<default>
+merchant_id,String,false,false, , ,false,<default>
+merchantid,String,false,false, , ,true,<default>
+pos_c_code,String,false,false, , ,false,<default>
+pos_code,String,false,false, , ,false,<default>
+pos_dcc_code,String,false,false, , ,false,<default>
+posCCode,String,false,false, , ,true,<default>
+poscode,String,false,false, , ,true,<default>
+posDccCode,String,false,false, , ,true,<default>
+start_date,String,false,false, , ,false,<default>
+start_time,String,false,false, , ,false,<default>
+startdate,String,false,false, , ,true,<default>
+starttime,String,false,false, , ,true,<default>
+teller_id,String,false,false, , ,false,<default>
+tellerid,String,false,false, , ,true,<default>
+use_flag,String,false,false, , ,false,<default>
+useflag,String,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

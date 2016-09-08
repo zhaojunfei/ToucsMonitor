@@ -1,0 +1,55 @@
+[PropertyInfo]
+acct_no,String,false,false, , ,false,<default>
+acctno,String,false,false, , ,true,<default>
+counter,String,false,false, , ,true,<default>
+equip_type,String,false,false, , ,false,<default>
+equiptType,String,false,false, , ,true,<default>
+exg_no,String,false,false, , ,false,<default>
+exgno,String,false,false, , ,true,<default>
+fix_address,String,false,false, , ,false,<default>
+fix_date,String,false,false, , ,false,<default>
+fix_person,String,false,false, , ,false,<default>
+fixaddress,String,false,false, , ,true,<default>
+fixdate,String,false,false, , ,true,<default>
+fixperson,String,false,false, , ,true,<default>
+frn_rebate,String,false,false, , ,false,<default>
+frnRebate,String,false,false, , ,true,<default>
+hand_flag,String,false,false, , ,false,<default>
+handFlag,String,false,false, , ,true,<default>
+MAXLENGTH,int,false,false, , ,false,<default>
+mct_name,String,false,false, , ,true,<default>
+memo1,String,false,false, , ,true,<default>
+memo1a,String,false,false, , ,true,<default>
+memo1b,String,false,false, , ,true,<default>
+memo1c,String,false,false, , ,true,<default>
+memo2,String,false,false, , ,true,<default>
+memo3,String,false,false, , ,true,<default>
+merchant_id,String,false,false, , ,false,<default>
+merchantid,String,false,false, , ,true,<default>
+model,String,false,false, , ,true,<default>
+net_type,String,false,false, , ,false,<default>
+nettype,String,false,false, , ,true,<default>
+open_bankno,String,false,false, , ,false,<default>
+openbankno,String,false,false, , ,true,<default>
+pos_c_code,String,false,false, , ,false,<default>
+pos_code,String,false,false, , ,false,<default>
+pos_dcc_code,String,false,false, , ,false,<default>
+pos_stat,String,false,false, , ,false,<default>
+posCCode,String,false,false, , ,true,<default>
+poscode,String,false,false, , ,true,<default>
+posDccCode,String,false,false, , ,true,<default>
+posstat,String,false,false, , ,true,<default>
+pre_authorized,String,false,false, , ,false,<default>
+preAutorized,String,false,false, , ,true,<default>
+rebate,String,false,false, , ,true,<default>
+record_date,String,false,false, , ,false,<default>
+recorddate,String,false,false, , ,true,<default>
+tran_right,String,false,false, , ,false,<default>
+txnRight,String,false,false, , ,true,<default>
+vacct_no,String,false,false, , ,false,<default>
+vacctno,String,false,false, , ,true,<default>
+[IconNames]
+
+
+
+
